@@ -1,4 +1,4 @@
-# GenPolar
+# GenPolar (ECCV 2026 Oral)
 
 Official implementation of **Stokes-Informed Diffusion for Robust Linear
 Polarization Estimation**.
