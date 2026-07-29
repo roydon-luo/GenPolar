@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "GenPolar: Stokes-Informed Diffusion for Robust Linear Polarization Estimation"
+message: "If you use this software, please cite the paper below."
+type: software
+authors:
+  - family-names: Luo
+    given-names: Yidong
+  - family-names: Li
+    given-names: Chenggong
+  - family-names: Feng
+    given-names: Yuchao
+  - family-names: Shi
+    given-names: Boxin
+  - family-names: Zhang
+    given-names: Junchao
+  - family-names: Yuan
+    given-names: Xin
+year: 2026

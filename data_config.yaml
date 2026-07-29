@@ -1,0 +1,14 @@
+data:
+  train:
+    type: Polarization_Dataset
+    params:
+      gt_size: 512
+      use_hflip: false
+      use_rot: false
+      filename_tmpl: "{}"
+      stokes_scale: 1.0
+      io_backend:
+        type: disk
+      data_source:
+        source1:
+          dataroot_gt: ./data/train
