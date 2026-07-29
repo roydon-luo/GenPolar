@@ -1,4 +1,4 @@
-# GenPolar (ECCV 2026 Oral)
+# GenPolar
 
 Official implementation of **Stokes-Informed Diffusion for Robust Linear
 Polarization Estimation**.
@@ -79,13 +79,12 @@ Each image produces:
 
 ## Data
 
-Edit `data_config.yaml` and set each `dataroot_gt`. Multiple sources can be
-listed as `source1`, `source2`, and so on. The loader supports:
-
-1. scene folders containing the four analyzer-angle images at 0°, 45°, 90°,
-   and 135°;
-2. scene folders containing `S0`, `S1`, and `S2` images;
-3. `.npy` arrays containing `S0`, `S1`, and `S2`.
+Keep training and test sets under `Datasets/train/` and `Datasets/test/`.
+The recommended layout is `split/dataset_name/data`; each training dataset
+directory is configured as one `dataroot_gt`. Exact directory layouts, file
+names, array shapes, and value ranges for the supported `.npy`, Stokes-image,
+and four-angle formats are documented in
+[`Datasets/README.md`](Datasets/README.md).
 
 The public configuration follows the paper: `S1,S2` are in `[-1,1]`, physical
 `S0` is in `[0,2]`, and the network condition is `S0 - 1` in `[-1,1]`.

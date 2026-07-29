@@ -11,4 +11,10 @@ data:
         type: disk
       data_source:
         source1:
-          dataroot_gt: ./data/train
+          dataroot_gt: ./Datasets/train/dataset_a
+        source2:
+          dataroot_gt: ./Datasets/train/dataset_b
+        source3:
+          dataroot_gt: ./Datasets/train/dataset_c
+        source4:
+          dataroot_gt: ./Datasets/train/dataset_d
