@@ -1,10 +1,9 @@
-# GenPolar
+# GenPolar (ECCV 2026 Oral)
 
 Official implementation of **Stokes-Informed Diffusion for Robust Linear
 Polarization Estimation**.
 
-[Paper PDF](GenPolar_maintext_PDF.pdf) ·
-[Hugging Face weights](https://huggingface.co/Roydon728/GenPolar)
+[Paper](https://arxiv.org/abs/2607.21239) ·
 
 GenPolar estimates channel-wise linear Stokes components `(S1, S2)` from a
 single RGB intensity proxy proportional to `S0`. DoLP and AoP are then derived
