@@ -149,6 +149,7 @@ python scripts/export_release_weights.py one-step \
   title   = {Stokes-Informed Diffusion for Robust Linear Polarization Estimation},
   author  = {Luo, Yidong and Li, Chenggong and Feng, Yuchao and Shi, Boxin and
              Zhang, Junchao and Yuan, Xin},
+  journal={arXiv preprint arXiv:2607.21239},
   year    = {2026}
 }
 ```
