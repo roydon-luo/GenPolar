@@ -130,17 +130,6 @@ The implementation follows the paper as follows:
 | Eq. (14)-(15) | posterior KL and end-to-end physics gradients routed to encoder LoRA |
 | Inference | Gaussian 8-channel latent, one generator call, fixed VAE decoding |
 
-## Exporting minimal release weights
-
-Training checkpoints retain optimizer state so training can be resumed. Strip
-them before release:
-
-```bash
-python scripts/export_release_weights.py teacher \
-  checkpoints/stage1/checkpoint_latest.pth genpolar_stage1_teacher.pth
-python scripts/export_release_weights.py one-step \
-  checkpoints/stage2/checkpoint_latest.pth genpolar_one_step.pth
-```
 
 ## Citation
 
