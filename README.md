@@ -1,4 +1,4 @@
-# GenPolar (ECCV 2026 Oral)
+# GenPolar (ECCV 2026 Spotlight)
 
 Official implementation of [**Stokes-Informed Diffusion for Robust Linear
 Polarization Estimation**](https://arxiv.org/abs/2607.21239).
@@ -135,11 +135,15 @@ The implementation follows the paper as follows:
 
 ```bibtex
 @article{luo2026genpolar,
-  title   = {Stokes-Informed Diffusion for Robust Linear Polarization Estimation},
-  author  = {Luo, Yidong and Li, Chenggong and Feng, Yuchao and Shi, Boxin and
-             Zhang, Junchao and Yuan, Xin},
-  journal={arXiv preprint arXiv:2607.21239},
-  year    = {2026}
+  title     = {Stokes-Informed Diffusion for Robust Linear Polarization Estimation},
+  author    = {Luo, Yidong and Li, Chenggong and Feng, Yuchao and Shi, Boxin and Zhang, Junchao and Yuan, Xin},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {17013},
+  pages     = {512--529},
+  publisher = {Springer},
+  year      = {2026},
+  doi       = {10.1007/978-3-032-37271-0_28}
 }
 ```
 
