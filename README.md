@@ -134,7 +134,7 @@ The implementation follows the paper as follows:
 ## Citation
 
 ```bibtex
-@article{luo2026genpolar,
+@inproceedings{luo2026genpolar,
   title     = {Stokes-Informed Diffusion for Robust Linear Polarization Estimation},
   author    = {Luo, Yidong and Li, Chenggong and Feng, Yuchao and Shi, Boxin and Zhang, Junchao and Yuan, Xin},
   booktitle = {European Conference on Computer Vision (ECCV)},
