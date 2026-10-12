@@ -86,6 +86,15 @@ and four-angle formats are documented in
 The public configuration follows the paper: `S1,S2` are in `[-1,1]`, physical
 `S0` is in `[0,2]`, and the network condition is `S0 - 1` in `[-1,1]`.
 
+GenPolar uses the following two RLP-category datasets in addition to the
+existing public datasets:
+[OPID](https://huggingface.co/datasets/Roydon728/OPID) and
+[IPID](https://huggingface.co/datasets/Roydon728/IPID). The associated works
+had not yet been published when GenPolar was accepted; now that they have
+been published, we have added the dataset links here. Both releases provide
+training and test splits, with four analyzer-angle PNG images per scene
+(`0.png`, `45.png`, `90.png`, and `135.png`).
+
 ## Training
 
 Stage I trains the 8-channel UNet and ControlNet for clean-latent prediction
